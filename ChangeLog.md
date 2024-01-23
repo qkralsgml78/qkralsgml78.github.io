@@ -11,3 +11,6 @@
 
 ### 0.4.0
 - [ ] SEO-NAVER 
+
+### 0.5.0
+- [ ] firebase & deploy dev STG
