@@ -1,5 +1,5 @@
-# bhanwha's tech blog
-<img src="!(https://github.com/qkralsgml78/qkralsgml78.github.io/assets/149050285/6e4ecf87-1712-4027-b2c3-98cf6a81695c)" width=300 />
+# minhee's tech blog
+<img src="![스크린샷 2024-01-23 111645](https://github.com/qkralsgml78/qkralsgml78.github.io/assets/149050285/36fe28e5-4594-460c-b525-5c50b4ca66f5)" width=300 />
 
 ### How to Contribute
 - WSL Ubuntu 22.04 LTS
