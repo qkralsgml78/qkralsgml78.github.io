@@ -14,3 +14,6 @@
 
 ### 0.5.0
 - [ ] firebase & deploy dev STG
+
+### 0.6.0
+- [ ] Study css
