@@ -2,47 +2,100 @@
 <html lang="ko">
   <head>
     <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>박민희</title>
      <style>
-	div{background: orange;}
-	div{background: pink;}
-	.blue{background: blue;}
-	.green{background: green;}
+* {
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+float: left;
+font-size:20px;
+padding: 25px;
+width: 45%;
+color: gray;
+}
+
+/* nav {
+background: lightgoldenrodyellow;
+padding: 20px;
+width: 30%;
+font-size: large;
+color: gray;
+ clear: both;
+display: table; 
+ } */
+
+article {
+padding: 20px;
+width: 70%;
+/* background-color: wheat; */
+}
+
+section {
+content: "";
+display: table;
+clear: both;
+}
+
+div.left {
+	padding-top: 50px;
+	padding-bottom: 500px;
+	width: 25%;
+	height: 50%;
+	float: left;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+div.right {
+	width: 75%;
+	float: right;
+	box-sizing: border-box;
+}
+
     </style>
   </head>
   <body>
-      <header>
-	  <div class = "blue">		   
-          <h1>이력서</h1>
-          <h2>박민희</h2>
-	  </div>
-      </header>
-
-      <nav>
-        <ul>
-		<div class = "blue">
+	<header>	   
+		<h1>이력서</h1>
+		<h2>MinHee │ 백엔드 신입 개발자</h2>
+	</header>
+<!-- 
+	<nav>
+		<ul>
 		<li><a href="#profile">프로필</a></li>
 		<li><a href="#education">학력</a></li>
-        	<li><a href="#experience">경력</a></li>
+		<li><a href="#experience">경력</a></li>
 		<li><a href="#skills">기술</a></li>
 		</div>
-        </ul>
-      </nav>
-      <article>
+		</ul>
+	</nav> -->
+
+	<div class="right">
+    <article>
 	<section id="profile">
-		<h2>프로필</h2>
-		<p>
-		안녕하세요!! 박민희입니다.
-		</p>
+		<h2>☁️Contact</h2>
+		<p>Email. qkralsgml78@gmail.com</p>
+		<p>Phone. 010-0000-0000</p>
 	</section>
 
 	<section id="education">
-		<h2>학력</h2>
+		<h2>chnnel</h2>
 		<ul>
-			<li>
-				<h3> 컴퓨터공학부 재학기간 </h3>
-				<p> 휴학 </p>
-			</li>
+			<!-- <li> -->
+				<p> Notion. <a src href https://www.notion.so/invite/e8ee1d5c89d07656af0b9e53aa71f229e4e33ccd>https://www.notion.so</a></p>
+				<p> Github. <a src href="https://qkralsgml78.github.io/">https://qkralsgml78.github.io/©20240123</a></p>
+			<!-- </li> -->
 		</ul>
 	</section>
 
@@ -50,17 +103,17 @@
         <h2>기술</h2>
 		 <ul>
 			 <li>
-				 <h3>JAVA 중하</h3>
+				 <h4>JAVA 중하</h4>
 			</li>
              <li>
-                <h3>Spring 하 </h3>
+                <h4>Spring 하 </h4>
              </li>
 		</ul>
 	</section>	
-      </article>
+	</article>
+</div>
 
-      <footer>
-	<p>https://qkralsgml78.github.io/©20240123</p>
-      </footer>
+
+
   </body>
 </html>
